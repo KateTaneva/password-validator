@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-size: 30px;
+ 
+  }
+
+
+div {
+  margin-top:15%;
+  margin-left:15%;
+  font-size: 30px;
+}
+
+#inputPass {
+width: 800px;
+font-size: 30px;
+}
+
+.unorderedList li{
+   display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li::marker {
+  color:#FD9C5D;
+}
+
+button{
+  height: 45px;
+  border-left:none;
+  border-color: white ;
+}
