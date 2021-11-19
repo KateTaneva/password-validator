@@ -18,14 +18,15 @@ import ValidatorFunction from '../services/Validator/Validator';
 // }
 const PasswordField = () => {
 
-  
+
     return (
 
         <form className="passwordForm">
-            <input type="password" id="inputPass" onClick={ValidatorFunction}/>
-            
+            <input type="username" id="usr" />
+            <input type="password" id="inputPass" onClick={ValidatorFunction} />
+
             <button onClick={CheckboxFunction} >
-               
+
                 <input type="checkbox" value="checkbox" ></input>
                 <span toggle="password" id="togglePassword" >Show</span>
             </button>
