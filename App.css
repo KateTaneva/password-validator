@@ -34,3 +34,7 @@ button{
   border-left:none;
   border-color: white ;
 }
+
+#root > div > label.usrname{
+  display: none;
+}
