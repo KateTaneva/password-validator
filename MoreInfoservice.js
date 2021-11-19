@@ -12,8 +12,9 @@ async function getapi(url) {
         console.log(data);
         if (response) {
             ValidatorFunction()
+            
         }else{
-            throw ('Username not found!')
+            throw('Username not found!')
 
         }
     }
